@@ -6,4 +6,6 @@ return Object.assign(playlist, {['Phil Ochs']: "Here's to the State of Mississip
 }
 
 
-function remov
+function removeFromPlaylist(playlist, artistName){
+  
+}
