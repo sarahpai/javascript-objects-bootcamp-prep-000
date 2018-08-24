@@ -1,5 +1,5 @@
-var playist = {};
-var playist = {'artist': 'song'};
+var playlist = {};
+var playlist = {'artist': 'song'};
 
 
 
