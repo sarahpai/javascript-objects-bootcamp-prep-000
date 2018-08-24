@@ -1,1 +1,2 @@
-var object = {}, playlist;
+var playist = {};
+var playist = {artist: 'song'};
