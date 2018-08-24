@@ -9,12 +9,10 @@ return Object.assign(playlist, {['Phil Ochs']: "Here's to the State of Mississip
 function removeFromPlaylist(playlist, artistName){
   delete playlist['Slowdive'];
 return Object.assign({}, {[playlist]: artistName})
-  const playlist2 = {'Slowdive': 'Alison'}
-return playlist2
 }
 
 
-//---------------------------
+//--------------------------- below is 1st attempt
 
 
 var playlist = {};
@@ -31,12 +29,3 @@ function removeFromPlaylist(playlist, artistName) {
 }
 
 
-//---------------------------
-
-//   function updatePlaylist (playlist, Adele, hello) {
-  // return Object.assign({}, playlist, { [Adele]: hello})
-//   }
-
-//   function removeFromPlaylist(playlist, artistName) {
-//  delete playlist['Alison'];
-//  }
