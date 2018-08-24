@@ -28,7 +28,6 @@ function updatePlaylist (playlist, artistName, songTitle) {
 
 function removeFromPlaylist(playlist, artistName) {
   delete playlist['Slowdive'];
-var playlist = { artistName: 'songTitle' };
 }
 
 
