@@ -8,5 +8,6 @@ return Object.assign(playlist, {['Phil Ochs']: "Here's to the State of Mississip
 
 function removeFromPlaylist(playlist, artistName){
   delete playlist['Slowdive'];
-  return Object.assign({}, playlist, artistName)
+  return Object.assign({}, obj, {[playlist]: artistName})
 }
+  const playlist = {{
