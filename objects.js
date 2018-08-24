@@ -1,4 +1,5 @@
 var playist = {};
-var playist = {artist: 'song'};
+var playist = {'artist': 'song'};
 
+function u
 
